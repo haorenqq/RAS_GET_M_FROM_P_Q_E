@@ -30,7 +30,7 @@ n = 0x80C07AFC9D25404D6555B9ACF3567CF1
 p = 11913259462948888787
 q = 14365556249124810923
 
-c = pow(m,e,n)
+c = pow(m, e, n)
 print("cipher is" + hex(c))
 
 d = compute_d(p, q, e)
